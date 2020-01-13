@@ -1,0 +1,25 @@
+/***** FONTS *****/
+@font-face {
+    font-family: FonteTitle;
+    src: url("../assets/fonts/Saira-Bold.ttf");
+}
+
+@font-face {
+    font-family: FonteBody;
+    src: url("../assets/fonts/Armata-Regular.ttf");
+}
+
+html{
+    font-family: FonteBody;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+}
+
+.panel{
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
